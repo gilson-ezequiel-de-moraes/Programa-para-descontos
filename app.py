@@ -1,3 +1,4 @@
+# Solicita o valor total da compra ao usuário
 valor_total = float(input("Digite o valor total da compra (R$): "))
 
 # Determina a porcentagem de desconto com base nas regras estipuladas

@@ -1,5 +1,21 @@
 # Programa para Descontos
 # Cliente adquire descontos a cada valor de compra
 
-Exemplo de funcionamento:Para R$ 150,00: Desconto de 5% (R$ 7,50) 
-$\rightarrow$ Final: R$ 142,50Para R$ 250,00: Desconto de 10% (R$ 25,00) $\rightarrow$ Final: R$ 225,00Para R$ 350,00: Desconto de 15% (R$ 52,50) $\rightarrow$ Final: R$ 297,50
+Determina o percentual de desconto aplicável e calcula os valores.
+    
+Regras de Negócio:
+- Menor que R$ 200,00: 5% de desconto.
+- Entre R$ 200,00 e R$ 299,99: 10% de desconto.
+- A partir de R$ 300,00: 15% de desconto.
+
+input(): Lê o texto digitado pelo usuário.
+
+float(): Converte o texto em número decimal.
+
+if / elif / else: Define a % de desconto (5%, 10% ou 15%) de acordo com a faixa de valor.
+
+* e -: Calculam o valor do desconto e o valor final a pagar.
+
+print(): Exibe o resultado formatado.
+
+f"..." e :.2f: Formatam a saída para mostrar o valor com 2 casas decimais.
